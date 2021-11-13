@@ -1,7 +1,7 @@
 import random
 import os
 
-wordsCount = 10000
+wordsCount = 100000
 
 linkers = ["So", "Also", "By the way", "Moreover"]
 personal = ["I", "personaly I"]
