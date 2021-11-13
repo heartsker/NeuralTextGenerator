@@ -12,7 +12,7 @@ file = open("text.txt", "w")
 
 
 for i in range(0, wordsCount):
-	sentence = random.choice(linkers) + random.choice(personal) + random.choice(like) + random.choice(code) + "."
+	sentence = random.choice(linkers) + ", " + random.choice(personal) + " " + random.choice(like) + " " + random.choice(code) + "."
 	file.write(sentence)
 
 file.close()
